@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;700&display=swap');
+
+/* imported fonts */
+
+body {
+    /* styling the body and applying the pixel font-family to the entire body */
+
+    height:100vh;
+    margin: 0;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.headul {
+
+    list-style-type: none;
+    /* to remove dots from unordered list in the nav bar */
+    
+    margin:0;
+    padding:0;
+    display: flex;
+
+}
+
+#maja{
+    /* these are the settings for all images */
+    display:block;
+    width:100%;
+    padding-top: 10%;
+    padding-bottom:10%;
+}
+
+.normalul {
+    /* settings for unordered lists */
+
+    color: white;
+    line-height: 2;
+    width: 80%;
+    font-size: 14px;
+}
+
+a{
+    color: #F9F8E4;
+    text-decoration: none;
+    /* this is to remove underlines from the words in the header/navbar */
+}
+
+
+
+.nav-container {
+    /* so that nav bar is red */
+
+    background: #B21010;
+}
+
+.bigdiv{
+    /* bigdiv is a container for two smaller divs. they are always there, even if they have the same color. */
+    display: flex;
+    height: 90vh;
+}
+
+.bigdiv2{
+    /* big div for issues page */
+    background-color: #F0CC4B;
+    
+    display: flex;
+}
+.bigdiv3{
+    /* big div for what to do page. */
+    background-color: #1D6F9D;
+    
+    display: flex;
+}
+
+
+.smoldiv_left {
+    /* this is the left small div for home page */
+    width: 50vw;
+    background-color: #F0CC4B;
+    margin: 0;
+    position:relative;
+}
+
+.smoldiv_right{
+    /* right small div for homw page. */
+    width: 50vw;
+    background-color: #1D6F9D;
+    margin: 0;
+    
+    position: relative;
+}
+
+.smoldiv2-1{
+    /* smaller divs that help split the pages visually */
+    width: 50vw;
+}
+.smoldiv2-2{
+    width: 50vw;
+}
+
+.smoldiv3-1{
+    width: 50vw;
+}
+.smoldiv3-2{
+    width: 50vw;
+}
+
+#author {
+    /* name of the author of the original text */
+    margin-top: 20%;
+}
+#paragraph{
+    /* basic paragraph */
+    width: 80%;
+    text-align: left;
+    padding-top: 7%;
+    padding-bottom: 10%;
+    line-height: 1.5;
+}
+
+#whiteh2{
+    color:white;
+    padding-top: 15%;
+    /* making h2 white. */
+}
+
+#paragraph3{
+    /* white paragraph for the what to do page */
+    width: 80%;
+    text-align: left;
+    padding-top: 7%;
+    padding-bottom: 10%;
+    color: white;
+    line-height:1.5;
+}
+
+#bigissue{
+    /* big vertical issue title on issue page */
+
+    position:relative;
+    font-size:300px;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    margin-left: 6%;
+    padding-top: 6%;
+    font-weight: 700;
+}
+
+#bigwhat{
+    /* big vertical issue title on issue page */
+
+    position:relative;
+    font-size: 300px;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    margin-left: 6%;
+    padding-top: 6%;
+    font-weight: 700;
+    color:white;
+}
+
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    /* // space between flexbox items */
+    padding: 2em;
+}
+
+   
+#bigtext {
+
+    font-size: 50px;
+    text-align: left;
+    padding-top: 13%;
+    padding-left: 6%;
+    padding-right: 6%;
+} 
+
+
+
+#smoltext{
+
+    font-size: 22px;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+a {
+    display: block;
+    padding: 0 2em;
+    /* font treatment of the links: "works" "skills" and "hire me" */
+ }
+    
+
+ .dot {
+     /* settings for the two dots. first one is black and large. second one is red and small. resembles hidden camera. */
+    height: 500px;
+    width: 500px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 15%;
+    margin-right:auto;
+  }
+
+  .dot2 {
+    height: 5px;
+    width: 5px;
+    background-color: red;
+    position: absolute;
+    margin-top: 50%;
+    z-index: 10;
+    margin-right: auto;
+    margin-left: 50%;
+
+  }
