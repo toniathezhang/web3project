@@ -9,6 +9,7 @@ body {
 
     height:100vh;
     margin: 0;
+    padding:0;
     font-family: 'IBM Plex Mono', monospace;
 }
 
@@ -27,6 +28,15 @@ body {
     /* these are the settings for all images */
     display:block;
     width:100%;
+    padding-top: 10%;
+    padding-bottom:10%;
+}
+
+
+#www{
+    display:block;
+    width:105%;
+    margin-left: -15%;
     padding-top: 10%;
     padding-bottom:10%;
 }
@@ -189,6 +199,17 @@ header {
     padding-right: 6%;
 }
 
+
+#authorissue{
+    margin-top: 20%;
+    color: black;
+}
+
+#authorwhat{
+    margin-top: 10%;
+    color:white;
+}
+
 a {
     display: block;
     padding: 0 2em;
@@ -198,8 +219,8 @@ a {
 
  .dot {
      /* settings for the two dots. first one is black and large. second one is red and small. resembles hidden camera. */
-    height: 500px;
-    width: 500px;
+    height: 35vw;
+    width: 35vw;
     background-color: black;
     border-radius: 50%;
     display: inline-block;
@@ -219,4 +240,14 @@ a {
     margin-right: auto;
     margin-left: 50%;
 
+  }
+
+  figcaption {
+    
+    color: white;
+    margin-left: -5%;
+    margin-top:-13%;
+    font-style: italic;
+    font-size: 0.8em;
+    text-align: left;
   }
